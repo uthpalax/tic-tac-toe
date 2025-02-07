@@ -5,6 +5,26 @@
   text-align: center;
 }
 
+.game-board {
+  display: grid;
+  grid-template-rows: 60px 60px 60px;
+  grid-template-columns: 60px 60px 60px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
+
 .row {
   padding: 0.5rem;
 }
